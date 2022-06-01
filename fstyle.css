@@ -105,6 +105,9 @@ background: #217BF4;
 box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
 border-radius: 14px;
 }
+.btbtn1{
+    width:162px;
+}
 .buttonblockmob{
     width: 80px;
     height: 40px;
