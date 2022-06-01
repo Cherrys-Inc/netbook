@@ -307,8 +307,11 @@ color: #0A093D;
 .btn1{
     width:fit-content;
 }
+.bt{
+    width:162px;
+}
 .btnbl2{
-    width:fit-content;
+    width:162px;
     background: transparent;
     opacity: 0.5;
     border: 1px solid #217BF4;
@@ -317,6 +320,7 @@ color: #0A093D;
 .btn2{
     color:#217BF4;
 }
+
 
 .bg2{
     background: #f8f9fa;
@@ -614,6 +618,7 @@ color: #E7E7E7;
     }
   
 }
+
 @media only screen and (max-width: 1024px){
     .p-14{
         padding-left: 5rem;
@@ -657,6 +662,9 @@ color: #E7E7E7;
 .buttonblockmob,.buttongenmob{
     display: block;
 }
+.ach{
+    padding-top: 3.5rem;
+}
 .card-deck{
     flex-flow: column wrap;
 }
@@ -681,9 +689,6 @@ color: #E7E7E7;
 .col4.pt-14{
     padding-top: 1rem;
 }
-.ach{
-    padding-top:3.5rem;
-}
 .card-columns.p-14{
     padding-top: 1rem;
     padding-left: 1rem;
@@ -700,7 +705,7 @@ color: #E7E7E7;
     padding-left: 4rem;
 }
 .secbigtext{
-    
+
     font-size: 32px;
     line-height: 42px;
 }
