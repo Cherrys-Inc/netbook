@@ -5,6 +5,7 @@
 }
 .container-fluid{
     overflow-x: hidden;
+   
     
 }
 footer{
@@ -104,9 +105,6 @@ height: 50px;
 background: #217BF4;
 box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
 border-radius: 14px;
-}
-.btbtn1{
-    width:162px;
 }
 .buttonblockmob{
     width: 80px;
@@ -264,6 +262,9 @@ color: #8C8C8C;
 .pl-10{
     padding-left: 8.5rem;
 }
+.plnav-8{
+    padding-left: 6.5rem;
+}
 .button1{
     font-family: 'Inter';
     font-style: normal;
@@ -310,6 +311,9 @@ color: #0A093D;
 .btn1{
     width:fit-content;
 }
+.btbtn1{
+    width:162px;
+}
 .bt{
     width:162px;
 }
@@ -328,6 +332,7 @@ color: #0A093D;
 .bg2{
     background: #f8f9fa;
 }
+
 .pt-10{
     padding-top: 8rem;
 }
@@ -611,6 +616,9 @@ letter-spacing: 0.0125em;
 
 color: #E7E7E7;
 }
+.col2{
+    width:48vw;
+}
 
 @media only screen and (min-width: 2560px){
     .container-fluid{
@@ -621,10 +629,51 @@ color: #E7E7E7;
     }
   
 }
+@media (max-width: 1200px){
+    .col3.pt-18{
+        padding-top: 3rem;
+    }
+    .col4.pt-14{
+        padding-top: 1rem;
+    }
+    .col3,.col4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .c1,.card-deck2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    .col2{
+        width:95vw;
+    }
+    .plnav-8{
+        padding-left: 4.5rem;
+    }
+    .input-icons.pl-8{
+        padding-left: 4rem;
+    }
+
+}
+
+
+
 
 @media only screen and (max-width: 1024px){
+    .input-icons.pl-8{
+        padding-left: 2rem;
+    }
+
     .p-14{
         padding-left: 5rem;
+    }
+    .card-columns.p-14{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        justify-content: center;
     }
     .col2{
         
@@ -636,8 +685,36 @@ color: #E7E7E7;
     .row1{
         justify-content:left;
     }
-  
+    .plnav-8{
+        padding-left: 1rem;
+    }
+    .pbtnbl{
+        justify-content: center;
+        display: flex;
+        margin-top: 0.5rem;
+    }
+    .ach{
+        padding-top: 5rem;
+    }
+
+
 }
+@media only screen and (max-width: 992px){
+    .menu{
+    
+        display:block;
+        
+    }
+    .buttonblockmob,.buttongenmob{
+    display: block;
+    }
+    .input-icons{
+    display: none;
+    }
+    .logcol{
+    display: none;
+    }
+    }
 @media screen and (min-width:320px) and (max-width: 780px){ 
     .menu{
 
@@ -661,6 +738,9 @@ color: #E7E7E7;
    
    .row1{
     justify-content:left;
+}
+.mob{
+    width:90vw;
 }
 .buttonblockmob,.buttongenmob{
     display: block;
@@ -695,6 +775,7 @@ color: #E7E7E7;
 .card-columns.p-14{
     padding-top: 1rem;
     padding-left: 1rem;
+    padding-right: 1rem;
     align-items: center;
     justify-content: center;
 }
@@ -722,55 +803,23 @@ color: #E7E7E7;
 .navbar-brand{
     font-size: 18px;
 }
+.c1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-@media (min-width: 320px){
-    .pbtnbl{
-        padding-left: 85px;
-    }
-    .ps{
-        padding-left: 35px;
-    }
-    .mob{
-        width:100vw;
-    }
 }
+
+
 @media (min-width: 375px){
-    .pbtnbl{
-        padding-left: 105px;
-        padding-top: 20px;
-    }
+   
     .tx{
         padding-top: 20px;
     }
 
 }
-@media (min-width: 425px){
-    .pbtnbl{
-        padding-left: 130px;
-    }
-}
-@media (min-width: 576px){
-    .card-columns .card {
-        display: inline-block;
-        width: 40%;
-    }
-    .pbtnbl{
-        padding-left: 50px;
-        padding-top: 0px;
-    }
-    .crd{
-        width:96%;
-    }
-   
-}
-@media (min-width: 770px){
-    .mob{
-        width:50vw;
-    }
 
-    
-}
 
 
 
