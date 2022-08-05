@@ -88,13 +88,14 @@ line-height: 16px;
 
 color: #217BF4;
 }
-.input-icons i {
+.input-icons i,.input-icons1 i {
     position: absolute;
     top:28px;
 
+
 }
 
-.input-icons {
+.input-icons,.input-icons1 {
     width: 100%;
 }
 .buttonblock{
@@ -314,6 +315,39 @@ color: #0A093D;
 .btbtn1{
     width:162px;
 }
+#myLinks{
+    display: none;
+  }
+ .topnav {
+    overflow: hidden;
+    background-color: #68a7f8;
+    position: relative;
+  }
+  
+ .topnav #myLinks {
+    display: none;
+  }
+  
+ .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+ .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 .bt{
     width:162px;
 }
@@ -688,11 +722,7 @@ color: #E7E7E7;
     .plnav-8{
         padding-left: 1rem;
     }
-    .pbtnbl{
-        justify-content: center;
-        display: flex;
-        margin-top: 0.5rem;
-    }
+   
     .ach{
         padding-top: 5rem;
     }
@@ -807,6 +837,11 @@ color: #E7E7E7;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.pbtnbl{
+    justify-content: center;
+    display: flex;
+    margin-top: 0.5rem;
 }
 
 }
